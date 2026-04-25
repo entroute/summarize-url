@@ -1,0 +1,32 @@
+{
+  "name": "summarize-url",
+  "version": "0.1.0",
+  "description": "Summarize any article or webpage via a verified x402 endpoint. No API key, pay-per-call in USDC.",
+  "keywords": [
+    "x402",
+    "summarize-url",
+    "article-summarizer",
+    "url-summarizer-api",
+    "tldr-api",
+    "ai-agents",
+    "mcp",
+    "entroute",
+    "pay-per-request"
+  ],
+  "homepage": "https://entroute.com",
+  "bugs": "https://github.com/entroute/summarize-url/issues",
+  "license": "MIT",
+  "author": "EntRoute",
+  "main": "src/index.ts",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@entroute/sdk-agent-ts": "^0.2.2"
+  },
+  "devDependencies": {
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.0"
+  }
+}
